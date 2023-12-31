@@ -1,0 +1,21 @@
+let weaknessMap = new Map([
+  ["Normal", ["Fighting"]],
+  ["Fighting", ["Flying", "Psychic", "Fairy"]],
+  ["Flying", ["Rock", "Electric", "Ice"]],
+  ["Poison", ["Ground", "Psychic"]],
+  ["Ground", ["Water", "Grass", "Ice"]],
+  ["Rock", ["Fighting", "Ground", "Steel", "Water", "Grass"]],
+  ["Bug", ["Flying", "Rock", "Fire"]],
+  ["Ghost", ["Ghost", "Dark"]],
+  ["Steel", ["Fighting", "Ground", "Fire"]],
+  ["Fire", ["Ground", "Rock", "Water"]],
+  ["Water", ["Grass", "Electric"]],
+  ["Grass", ["Flying", "Poison", "Bug", "Fire", "Ice"]],
+  ["Electric", ["Ground"]],
+  ["Psychic", ["Bug", "Ghost", "Dark"]],
+  ["Ice", ["Fighting", "Rock", "Steel", "Fire"]],
+  ["Dragon", ["Ice", "Dragon", "Fairy"]],
+  ["Dark", ["Fighting", "Bug", "Fairy"]],
+  ["Fairy", "Poison", "Steel"],
+]);
+console.log(weaknessMap);
