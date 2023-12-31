@@ -19,3 +19,24 @@ let weaknessMap = new Map([
   ["Fairy", "Poison", "Steel"],
 ]);
 console.log(weaknessMap);
+
+const getRocketLeaderData = async (leader) => {
+  // Replace ./data.json with your JSON feed
+  await fetch(`./data/${leader}.txt`)
+    .then((response) => {
+      return response.text();
+    })
+    .then((data) => {
+      // Work with JSON data here
+      rawText = data;
+      console.log(rawText);
+    })
+    .catch((err) => {
+      console.log(err);
+      // Do something for an error here
+    });
+};
+getRocketLeaderData("arlo");
+getRocketLeaderData("cliff");
+getRocketLeaderData("sierra");
+getRocketLeaderData("giovanni");
