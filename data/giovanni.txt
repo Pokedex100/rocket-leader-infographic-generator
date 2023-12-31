@@ -6,4 +6,4 @@ Giovanni
 :nidoking: - :mewtwo: :garchomp: :kyogre: 
 :rhyperior: - :kyogre: :swampert: :venusaur: 
 
-:lugia: - :melmetal: :magnezone: :yveltal: :metagross: :dialga: 
+:lugia: - :melmetal: :metagross: :dialga: 
