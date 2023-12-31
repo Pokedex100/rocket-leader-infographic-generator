@@ -6,6 +6,6 @@ Sierra
 :vileplume: - :mewtwo: :reshiram: :moltres: 
 :beedrill: - :reshiram: :moltres: :rhyperior: 
 
-:Houndoom: - :kyogre: :conkeldurr: :rhyperior: 
+:houndoom: - :kyogre: :conkeldurr: :rhyperior: 
 :marowak: - :venusaur: :kyogre: :swampert: 
 :nidoqueen: - :garchomp: :mamoswine: :kyogre: 
