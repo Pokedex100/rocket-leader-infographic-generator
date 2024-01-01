@@ -2,7 +2,7 @@ Giovanni
 
 :persian: - :lucario: :melmetal: :machamp: 
 
-:kingler: - :venusaur: :zekrom: :Raikou: 
+:kingler: - :venusaur: :zekrom: :raikou: 
 :nidoking: - :mewtwo: :garchomp: :kyogre: 
 :rhyperior: - :kyogre: :swampert: :venusaur: 
 

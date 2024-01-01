@@ -36,9 +36,9 @@ const getRocketLeaderData = async (leader, format = ".txt") => {
     });
 };
 getRocketLeaderData("arlo");
-// getRocketLeaderData("cliff");
-// getRocketLeaderData("sierra");
-// getRocketLeaderData("giovanni");
+getRocketLeaderData("cliff");
+getRocketLeaderData("sierra");
+getRocketLeaderData("giovanni");
 // getRocketLeaderData("pokedex", ".json");
 
 const buildSlots = (data) => {
@@ -54,6 +54,6 @@ const buildSlots = (data) => {
   slots.map((slot, index) => {
     images[
       index
-    ].src = `https://img.pokemondb.net/sprites/home/normal/${slot}.png`;
+    ].src = `https://img.pokemondb.net/sprites/home/normal/${slot.toLowerCase()}.png`;
   });
 };

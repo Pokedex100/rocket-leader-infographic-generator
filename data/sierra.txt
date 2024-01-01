@@ -1,8 +1,8 @@
 Sierra
 
-:nidoranfshiny: - :mewtwo: :garchomp: :moltres: 
+:nidoran-fshiny: - :mewtwo: :garchomp: :moltres: 
 
-:slowking: - :giratinaorigin: :yveltal: :zekrom: 
+:slowking: - :giratina-origin: :yveltal: :zekrom: 
 :vileplume: - :mewtwo: :reshiram: :moltres: 
 :beedrill: - :reshiram: :moltres: :rhyperior: 
 
