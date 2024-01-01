@@ -27,8 +27,7 @@ const getRocketLeaderData = async (leader, format = ".txt") => {
     })
     .then((data) => {
       // Work with JSON data here
-      rawText = data;
-      buildSlots(rawText);
+      format === ".txt" ? buildSlots(data) : buildTypes(data);
     })
     .catch((err) => {
       console.log(err);
@@ -39,8 +38,9 @@ getRocketLeaderData("arlo");
 getRocketLeaderData("cliff");
 getRocketLeaderData("sierra");
 getRocketLeaderData("giovanni");
-// getRocketLeaderData("pokedex", ".json");
+getRocketLeaderData("pokedex", ".json");
 
+let allSlots = [];
 const buildSlots = (data) => {
   let slots = [];
   const refinedData = data.split(/[\n\r\ ]/g);
@@ -56,4 +56,9 @@ const buildSlots = (data) => {
       index
     ].src = `https://img.pokemondb.net/sprites/home/normal/${slot.toLowerCase()}.png`;
   });
+  allSlots = [...allSlots, ...slots];
+};
+
+const buildTypes = (data) => {
+  console.log(data, allSlots);
 };
