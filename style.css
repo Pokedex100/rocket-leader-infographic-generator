@@ -19,4 +19,29 @@ section {
     inline-size: 3264px;
     block-size: 2331px;
     background-image: url(./images/Chart.png);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0px;
+}
+
+.leader-wrapper {
+    position: relative;
+    margin-inline-start: 50px;
+    margin-block-start: 235px;
+    inline-size: 765px;
+    block-size: 2035px;
+    background-color: rgba(0, 255, 255, 0.242);
+}
+
+.cliff {
+    margin-inline-start: 38px;
+    inline-size: 760px
+}
+
+.sierra {
+    margin-inline-start: 22px;
+}
+
+.giovanni {
+    margin-inline-start: -8px;
 }
