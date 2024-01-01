@@ -70,12 +70,37 @@ const buildTypes = (pokedex) => {
 };
 
 const buildTypesForSingleGroup = (group, pokedex, leaderName) => {
-  console.log(leaderName);
+  let typeWrappers = document.querySelectorAll(
+    `.${leaderName} .disc-container`
+  );
   for (let i = 0; i < group.length; i += 4) {
-    fragmentTypesForSingleGroup(group.slice(i, i + 4), pokedex);
+    fragmentTypesForSingleGroup(
+      group.slice(i, i + 4),
+      pokedex,
+      [...typeWrappers].slice(i, i + 4)
+    );
   }
 };
 
-const fragmentTypesForSingleGroup = (group, pokedex) => {
-  console.log(group);
+const fragmentTypesForSingleGroup = (group, pokedex, typeWrappers) => {
+  for (let i = 0; i < 4; i++) {
+    let types = pokedex.find((dex) => {
+      if (
+        group[i].replace("-f", "♀").replace("-origin", "") ===
+        dex.name.english.toLowerCase()
+      )
+        return dex;
+    }).type;
+    buildUI(typeWrappers[i], types);
+  }
+};
+
+const buildUI = (typeWrapper, types) => {
+  for (const type of types) {
+    let img = document.createElement("img");
+    img.src = `./icons/${type.toLowerCase()}.svg`;
+    img.classList.add(type.toLowerCase());
+    img.classList.add("type-disc");
+    typeWrapper.appendChild(img);
+  }
 };

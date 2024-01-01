@@ -45,6 +45,10 @@ section {
     margin-inline-start: -8px;
 }
 
+span {
+    position: relative;
+}
+
 .slot1,
 .slot .row {
     display: flex;
@@ -210,7 +214,18 @@ section {
 
 .type-disc {
     position: relative;
-    padding: 20px;
+    padding: 12px;
+    height: 50px;
+    width: 50px;
     box-sizing: border-box;
     clip-path: circle(40%);
+}
+
+.disc-container {
+    position: absolute;
+    display: flex;
+}
+
+.counter span:last-of-type .disc-container {
+    translate: 150px 0;
 }
