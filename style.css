@@ -19,6 +19,7 @@ section {
     inline-size: 3264px;
     block-size: 2331px;
     background-image: url(./images/Chart.png);
+    background-size: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 0px;
@@ -38,18 +39,17 @@ section {
 }
 
 .sierra {
-    margin-inline-start: 22px;
+    margin-inline-start: 15px;
 }
 
 .giovanni {
-    margin-inline-start: -8px;
+    margin-inline-start: 5px;
 }
 
 span {
     position: relative;
 }
 
-.slot1,
 .slot .row {
     display: flex;
     justify-content: center;
@@ -57,48 +57,17 @@ span {
     margin-block-start: 10px;
 }
 
-.slot1>span,
 .slot .row>span {
     position: relative;
-    margin-inline-start: 20px;
+    margin-inline-start: 15px;
 }
 
-.slot1 .prime-counter,
 .slot .row .prime-counter {
     margin-inline-start: 25px;
 }
 
-.cliff :is(.slot1>span, .slot .row>span) {
-    margin-inline-start: 10px;
-}
-
-
-.cliff .slot1 .prime-counter {
-    margin-inline-start: 55px;
-}
-
-.cliff .slot .row .prime-counter {
-    margin-inline-start: 65px;
-}
-
-.sierra :is(.slot1>span, .slot .row>span) {
-    margin-inline-start: 50px;
-}
-
-.sierra :is(.slot1 .prime-counter, .slot .row .prime-counter) {
-    margin-inline-start: 35px;
-}
-
-.giovanni :is(.slot1>span, .slot .row>span) {
-    margin-inline-start: 20px;
-}
-
-.giovanni .slot1 .prime-counter {
+.slot .row .prime-counter {
     margin-inline-start: 45px;
-}
-
-.giovanni .slot .row .prime-counter {
-    margin-inline-start: 55px;
 }
 
 .slot2 {
@@ -107,10 +76,6 @@ span {
 
 .slot3 {
     margin-block-start: 130px;
-}
-
-.giovanni .slot3 {
-    margin-block-start: 120px;
 }
 
 .shiny::after {
@@ -214,11 +179,12 @@ span {
 
 .type-disc {
     position: relative;
-    padding: 12px;
-    height: 50px;
-    width: 50px;
+    padding: 8px;
+    height: 25px;
+    width: 25px;
     box-sizing: border-box;
     clip-path: circle(40%);
+    scale: 2;
 }
 
 .disc-container {
@@ -226,6 +192,43 @@ span {
     display: flex;
 }
 
+img.pokemon {
+    scale: 0.88;
+    transform-origin: 0;
+}
+
 .counter span:last-of-type .disc-container {
     translate: 150px 0;
+}
+
+.arlo .slot>.row>span>img {
+    translate: 20px 0;
+}
+
+.cliff .prime-counter {
+    translate: -10px 0;
+}
+
+.cliff .counter {
+    translate: -5px 0;
+}
+
+.sierra .prime-counter {
+    translate: -10px 0;
+}
+
+.sierra .counter {
+    translate: -5px 0;
+}
+
+.giovanni .prime-counter {
+    translate: -20px 0;
+}
+
+.giovanni .counter {
+    translate: -15px 0;
+}
+
+.arlo .counter {
+    translate: 5px 0;
 }
