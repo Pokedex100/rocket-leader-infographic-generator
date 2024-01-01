@@ -18,7 +18,6 @@ let weaknessMap = new Map([
   ["Dark", ["Fighting", "Bug", "Fairy"]],
   ["Fairy", "Poison", "Steel"],
 ]);
-console.log(weaknessMap);
 
 const getRocketLeaderData = async (leader, format = ".txt") => {
   // Replace ./data.json with your JSON feed
@@ -29,7 +28,7 @@ const getRocketLeaderData = async (leader, format = ".txt") => {
     .then((data) => {
       // Work with JSON data here
       rawText = data;
-      console.log(rawText);
+      buildSlots(rawText);
     })
     .catch((err) => {
       console.log(err);
@@ -37,7 +36,17 @@ const getRocketLeaderData = async (leader, format = ".txt") => {
     });
 };
 getRocketLeaderData("arlo");
-getRocketLeaderData("cliff");
-getRocketLeaderData("sierra");
-getRocketLeaderData("giovanni");
+// getRocketLeaderData("cliff");
+// getRocketLeaderData("sierra");
+// getRocketLeaderData("giovanni");
 // getRocketLeaderData("pokedex", ".json");
+
+const buildSlots = (data) => {
+  let slots = [];
+  const refinedData = data.split(/[\n\r\ ]/g);
+  for (const datum of refinedData.slice(1)) {
+    if (datum === "" || datum === "-") continue;
+    slots.push(datum.replace(/[:]/g, "").replace("shiny", ""));
+  }
+  console.log(slots);
+};
