@@ -103,3 +103,7 @@ section {
 .slot3 {
     margin-block-start: 130px;
 }
+
+.giovanni .slot3 {
+    margin-block-start: 120px;
+}
