@@ -41,6 +41,7 @@ getRocketLeaderData("giovanni");
 getRocketLeaderData("pokedex", ".json");
 
 let allSlots = [];
+let leaderNames = [];
 const buildSlots = (data) => {
   let slots = [];
   const refinedData = data.split(/[\n\r\ ]/g);
@@ -56,9 +57,25 @@ const buildSlots = (data) => {
       index
     ].src = `https://img.pokemondb.net/sprites/home/normal/${slot.toLowerCase()}.png`;
   });
-  allSlots = [...allSlots, ...slots];
+  leaderNames.push(refinedData[0].toLowerCase());
+  allSlots.push(slots);
 };
 
-const buildTypes = (data) => {
-  console.log(data, allSlots);
+const buildTypes = (pokedex) => {
+  let i = 0;
+  for (let slots of allSlots) {
+    buildTypesForSingleGroup(slots, pokedex, leaderNames[i]);
+    i++;
+  }
+};
+
+const buildTypesForSingleGroup = (group, pokedex, leaderName) => {
+  console.log(leaderName);
+  for (let i = 0; i < group.length; i += 4) {
+    fragmentTypesForSingleGroup(group.slice(i, i + 4), pokedex);
+  }
+};
+
+const fragmentTypesForSingleGroup = (group, pokedex) => {
+  console.log(group);
 };
