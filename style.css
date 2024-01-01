@@ -27,9 +27,9 @@ section {
 .leader-wrapper {
     position: relative;
     margin-inline-start: 50px;
-    margin-block-start: 235px;
+    margin-block-start: 785px;
     inline-size: 765px;
-    block-size: 2035px;
+    block-size: 1485px;
     background-color: rgba(0, 255, 255, 0.242);
 }
 
@@ -44,4 +44,51 @@ section {
 
 .giovanni {
     margin-inline-start: -8px;
+}
+
+.slot1,
+.slot2 .row {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-block-start: 10px;
+}
+
+.slot1>span,
+.slot2 .row>span {
+    margin-inline-start: 20px;
+}
+
+.slot1 .prime-counter,
+.slot2 .row .prime-counter {
+    margin-inline-start: 25px;
+}
+
+.cliff .slot1>span {
+    margin-inline-start: 10px;
+}
+
+
+.cliff .slot1 .prime-counter {
+    margin-inline-start: 45px;
+}
+
+.sierra .slot1>span {
+    margin-inline-start: 50px;
+}
+
+.sierra .slot1 .prime-counter {
+    margin-inline-start: 35px;
+}
+
+.giovanni .slot1>span {
+    margin-inline-start: 20px;
+}
+
+.giovanni .slot1 .prime-counter {
+    margin-inline-start: 45px;
+}
+
+.slot2 {
+    margin-block-start: 150px;
 }
