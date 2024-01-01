@@ -16,8 +16,28 @@ let weaknessMap = new Map([
   ["Ice", ["Fighting", "Rock", "Steel", "Fire"]],
   ["Dragon", ["Ice", "Dragon", "Fairy"]],
   ["Dark", ["Fighting", "Bug", "Fairy"]],
-  ["Fairy", "Poison", "Steel"],
+  ["Fairy", ["Poison", "Steel"]],
 ]);
+const pokemonTypes = [
+  "grass",
+  "fire",
+  "water",
+  "electric",
+  "ground",
+  "ice",
+  "rock",
+  "steel",
+  "fighting",
+  "psychic",
+  "ghost",
+  "dark",
+  "fairy",
+  "poison",
+  "bug",
+  "flying",
+  "dragon",
+  "normal",
+];
 
 const getRocketLeaderData = async (leader, format = ".txt") => {
   // Replace ./data.json with your JSON feed
@@ -91,12 +111,40 @@ const fragmentTypesForSingleGroup = (group, pokedex, typeWrappers) => {
       )
         return dex;
     }).type;
-    buildUI(typeWrappers[i], types);
+    buildUI(typeWrappers[i], types, i);
   }
 };
 
-const buildUI = (typeWrapper, types) => {
+let commonTypes = [];
+const buildUI = (typeWrapper, types, index) => {
+  let refinedTypes = new Set();
   for (const type of types) {
+    if (index === 0) {
+      for (const weakness of weaknessMap.get(type)) {
+        refinedTypes.add(weakness);
+      }
+    } else {
+      refinedTypes.add(type);
+    }
+  }
+  refinedTypes = [...refinedTypes];
+  if (index === 0) {
+    commonTypes = refinedTypes.slice();
+  } else {
+    if (refinedTypes.find((type) => commonTypes.join("").includes(type)))
+      refinedTypes = refinedTypes.filter((type) =>
+        commonTypes.join("").includes(type)
+      );
+  }
+  if (index === 3) {
+    commonTypes = [];
+  }
+  refinedTypes = refinedTypes.sort(
+    (a, b) =>
+      pokemonTypes.indexOf(a.toLowerCase()) -
+      pokemonTypes.indexOf(b.toLowerCase())
+  );
+  for (const type of refinedTypes) {
     let img = document.createElement("img");
     img.src = `./icons/${type.toLowerCase()}.svg`;
     img.classList.add(type.toLowerCase());
