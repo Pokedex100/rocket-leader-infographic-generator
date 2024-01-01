@@ -47,7 +47,7 @@ section {
 }
 
 .slot1,
-.slot2 .row {
+.slot .row {
     display: flex;
     justify-content: center;
     gap: 15px;
@@ -55,33 +55,37 @@ section {
 }
 
 .slot1>span,
-.slot2 .row>span {
+.slot .row>span {
     margin-inline-start: 20px;
 }
 
 .slot1 .prime-counter,
-.slot2 .row .prime-counter {
+.slot .row .prime-counter {
     margin-inline-start: 25px;
 }
 
-.cliff .slot1>span {
+.cliff :is(.slot1>span, .slot .row>span) {
     margin-inline-start: 10px;
 }
 
 
 .cliff .slot1 .prime-counter {
-    margin-inline-start: 45px;
+    margin-inline-start: 55px;
 }
 
-.sierra .slot1>span {
+.cliff .slot .row .prime-counter {
+    margin-inline-start: 65px;
+}
+
+.sierra :is(.slot1>span, .slot .row>span) {
     margin-inline-start: 50px;
 }
 
-.sierra .slot1 .prime-counter {
+.sierra :is(.slot1 .prime-counter, .slot .row .prime-counter) {
     margin-inline-start: 35px;
 }
 
-.giovanni .slot1>span {
+.giovanni :is(.slot1>span, .slot .row>span) {
     margin-inline-start: 20px;
 }
 
@@ -89,6 +93,14 @@ section {
     margin-inline-start: 45px;
 }
 
+.giovanni .slot .row .prime-counter {
+    margin-inline-start: 55px;
+}
+
 .slot2 {
     margin-block-start: 150px;
+}
+
+.slot3 {
+    margin-block-start: 130px;
 }
