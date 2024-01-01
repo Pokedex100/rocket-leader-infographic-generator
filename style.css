@@ -237,3 +237,7 @@ img.pokemon {
 .arlo .counter {
     translate: 5px 0;
 }
+
+.pokemon {
+    pointer-events: none;
+}

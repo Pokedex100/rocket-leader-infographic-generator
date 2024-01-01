@@ -151,4 +151,14 @@ const buildUI = (typeWrapper, types, index) => {
     img.classList.add("type-disc");
     typeWrapper.appendChild(img);
   }
+
+  addListeners();
+};
+
+const addListeners = () => {
+  document.querySelectorAll(".type-disc").forEach((disc) => {
+    disc.addEventListener("click", () => {
+      disc.remove();
+    });
+  });
 };
