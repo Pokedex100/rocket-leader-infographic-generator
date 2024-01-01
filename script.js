@@ -44,9 +44,16 @@ getRocketLeaderData("arlo");
 const buildSlots = (data) => {
   let slots = [];
   const refinedData = data.split(/[\n\r\ ]/g);
+  const images = document.querySelectorAll(
+    `.${refinedData[0].toLowerCase()} img`
+  );
   for (const datum of refinedData.slice(1)) {
     if (datum === "" || datum === "-") continue;
     slots.push(datum.replace(/[:]/g, "").replace("shiny", ""));
   }
-  console.log(slots);
+  slots.map((slot, index) => {
+    images[
+      index
+    ].src = `https://img.pokemondb.net/sprites/home/normal/${slot}.png`;
+  });
 };
