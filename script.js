@@ -20,11 +20,11 @@ let weaknessMap = new Map([
 ]);
 console.log(weaknessMap);
 
-const getRocketLeaderData = async (leader) => {
+const getRocketLeaderData = async (leader, format = ".txt") => {
   // Replace ./data.json with your JSON feed
-  await fetch(`./data/${leader}.txt`)
+  await fetch(`./data/${leader + format}`)
     .then((response) => {
-      return response.text();
+      return format === ".txt" ? response.text() : response.json();
     })
     .then((data) => {
       // Work with JSON data here
@@ -40,3 +40,4 @@ getRocketLeaderData("arlo");
 getRocketLeaderData("cliff");
 getRocketLeaderData("sierra");
 getRocketLeaderData("giovanni");
+// getRocketLeaderData("pokedex", ".json");
