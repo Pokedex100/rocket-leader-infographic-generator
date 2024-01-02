@@ -190,20 +190,61 @@ span {
     box-sizing: border-box;
     clip-path: circle(40%);
     scale: 2;
+    transform-origin: 0;
 }
 
 .disc-container {
     position: absolute;
     display: flex;
+    z-index: 7;
+    inset-inline-start: 80px;
+    inline-size: max-content;
+    max-inline-size: 180px;
+    flex-wrap: wrap;
+    inset-block-start: 100%;
+    translate: calc(-50% - 30px) -35px;
+    align-items: center;
+}
+
+.arlo>.slot>.row .disc-container {
+    translate: calc(-30% - 30px) -35px;
+}
+
+.arlo .slot2 .row3 .disc-container {
+    translate: calc(-30% - 30px) -29px;
+}
+
+.arlo .slot3 .row3 .disc-container {
+    translate: calc(-30% - 30px) -39px;
+}
+
+.cliff .slot2 .row3 .disc-container {
+    translate: calc(-50% - 30px) -29px;
+}
+
+.cliff .slot3 .row3 .disc-container {
+    translate: calc(-50% - 30px) -39px;
+}
+
+.sierra .slot2 .row3 .disc-container {
+    translate: calc(-50% - 30px) -29px;
+}
+
+.sierra .slot3 .row3 .disc-container {
+    translate: calc(-50% - 30px) -39px;
+}
+
+.giovanni .slot2 .row3 .disc-container {
+    translate: calc(-43% - 30px) -29px;
+}
+
+.giovanni .slot3 .row1 .disc-container {
+    translate: calc(-43% - 30px) -39px;
 }
 
 img.pokemon {
     scale: 0.88;
     transform-origin: 0;
-}
-
-.counter span:last-of-type .disc-container {
-    translate: 150px 0;
 }
 
 .arlo .slot>.row>span>img {
