@@ -6,6 +6,6 @@ Milotic - Kartana, Xurkitree, Zekrom
 Honchkrow - Xurkitree, Zekrom, Baxcalibur
 Sableye - Xerneas, Gardevoir, Zacian
 
-Victreebel - Rayquaza, Mewtwo, Reshiram
+Victreebel - Mewtwo, Reshiram, Moltres
 Alakazam - Darkrai, Yveltal, Giratina-Origin
 Houndoom - Terrakion, Kyogre, Groudon

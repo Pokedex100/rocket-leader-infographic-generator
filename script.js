@@ -18,6 +18,7 @@ let weaknessMap = new Map([
   ["Dark", ["Fighting", "Bug", "Fairy"]],
   ["Fairy", ["Poison", "Steel"]],
 ]);
+let strengthMap = [];
 const pokemonTypes = [
   "grass",
   "fire",
