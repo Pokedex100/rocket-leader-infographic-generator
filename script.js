@@ -1,4 +1,4 @@
-let weaknessMap = new Map([
+const weaknessMap = new Map([
   ["Normal", ["Fighting"]],
   ["Fighting", ["Flying", "Psychic", "Fairy"]],
   ["Flying", ["Rock", "Electric", "Ice"]],
@@ -18,7 +18,26 @@ let weaknessMap = new Map([
   ["Dark", ["Fighting", "Bug", "Fairy"]],
   ["Fairy", ["Poison", "Steel"]],
 ]);
-let strengthMap = [];
+const strengthMap = new Map([
+  ["Normal", [""]],
+  ["Fire", ["Grass", "Ice", "Bug", "Steel"]],
+  ["Water", ["Fire", "Ground", "Rock"]],
+  ["Electric", ["Water", "Flying"]],
+  ["Grass", ["Water", "Ground", "Rock"]],
+  ["Ice", ["Grass", "Ground", "Flying", "Dragon"]],
+  ["Fighting", ["Normal", "Ice", "Rock", "Dark", "Steel"]],
+  ["Poison", ["Grass", "Fairy"]],
+  ["Ground", ["Fire", "Electric", "Poison", "Rock", "Steel"]],
+  ["Flying", ["Grass", "Fighting", "Bug"]],
+  ["Psychic", ["Fighting", "Poison"]],
+  ["Bug", ["Grass", "Psychic", "Dark"]],
+  ["Rock", ["Fire", "Ice", "Flying", "Bug"]],
+  ["Ghost", ["Psychic", "Ghost"]],
+  ["Dragon", ["Dragon"]],
+  ["Dark", ["Ghost", "Psychic"]],
+  ["Steel", ["Ice", "Rock", "Fairy"]],
+  ["Fairy", ["Fighting", "Dark", "Dragon"]],
+]);
 const pokemonTypes = [
   "grass",
   "fire",
@@ -144,6 +163,13 @@ const buildUI = (typeWrapper, types, index) => {
       refinedTypes.add(type);
     }
   }
+  if (index === 0)
+    for (const type of types) {
+      if (strengthMap.get(type)[0])
+        for (const strength of strengthMap.get(type)) {
+          refinedTypes.delete(strength);
+        }
+    }
   refinedTypes = [...refinedTypes];
   if (index === 0) {
     commonTypes = refinedTypes.slice();
