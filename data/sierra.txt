@@ -1,11 +1,11 @@
 Sierra
 
-:nidoran-fshiny: - :mewtwo: :garchomp: :moltres: 
+Tentacool - Mewtwo, Xurkitree, Raikou
 
-:slowking: - :giratina-origin: :yveltal: :zekrom: 
-:vileplume: - :mewtwo: :reshiram: :moltres: 
-:beedrill: - :reshiram: :moltres: :rhyperior: 
+Milotic - Kartana, Xurkitree, Zekrom
+Honchkrow - Xurkitree, Zekrom, Baxcalibur
+Sableye - Xerneas, Gardevoir, Zacian
 
-:houndoom: - :kyogre: :conkeldurr: :rhyperior: 
-:marowak: - :venusaur: :kyogre: :swampert: 
-:nidoqueen: - :garchomp: :mamoswine: :kyogre: 
+Victreebel - Rayquaza, Mewtwo, Reshiram
+Alakazam - Darkrai, Yveltal, Giratina
+Houndoom - Terrakion, Kyogre, Groudon

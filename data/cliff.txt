@@ -1,11 +1,11 @@
 Cliff
 
-:grimershiny: - :mewtwo: :garchomp: :moltres:
+Zubat - Mewtwo, Xurkitree, Raikou
 
-:venusaur: - :mewtwo: :moltres: :reshiram: 
-:crobat: - :rhyperior: :mamoswine: :zekrom:
-:machamp: - :mewtwo: :moltres: :togekiss:
+Aerodactyl - Xurkitree, Metagross, Zekrom
+Gallade - Moltres, Yveltal, Giratina
+Kingdra - Xerneas, Dialga, Zacian
 
-:charizard: - :rhyperior: :terrakion: :kyogre: 
-:arcanine: - :garchomp: :swampert: :rhyperior: 
-:tyranitar: - :lucario: :conkeldurr: :machamp: 
+Tyranitar - Terrakion, Lucario, Machamp
+Cradily - Terrakion, Metagross, Lucario
+Crobat - Xurkitree, Mewtwo, Zekrom

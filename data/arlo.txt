@@ -1,11 +1,11 @@
 Arlo
 
-:gligarshiny: - :mamoswine: :swampert: :mewtwo: 
+Bagon - Florges, Walrein, Moltres
 
-:mawile: - :reshiram: :swampert: :conkeldurr: 
-:lapras: - :lucario: :conkeldurr: :machamp: 
-:cradily: - :mamoswine: :lucario: :metagross: 
+Hypno - Darkrai, Gholdengo, Giratina
+Charizard - Terrakion, Rhyperior, Rampardos
+Golurk - Kartana, Kyogre, Darkrai 
 
-:scizor: - :ho-oh: :blaziken: :reshiram: 
-:snorlax: - :lucario: :conkeldurr: :machamp: 
-:gardevoir: - :metagross: :dialga: :roserade: 
+Dragonite - Mamoswine, Darmanitan, Glaceon
+Salamence - Mamoswine, Darmanitan, Glaceon
+Scizor - Reshiram, Heatran, Blaziken  

@@ -1,9 +1,9 @@
 Giovanni
 
-:persian: - :lucario: :melmetal: :machamp: 
+Persian - Terrakion, Lucario, Machamp
 
-:kingler: - :venusaur: :zekrom: :raikou: 
-:nidoking: - :mewtwo: :garchomp: :kyogre: 
-:rhyperior: - :kyogre: :swampert: :venusaur: 
+Nidoking - Mewtwo, Kyogre, Groudon
+Garchomp - Mamoswine, Darmanitan, Glaceon
+Rhyperior - Kyogre, Kartana, Swampert
 
-:lugia: - :melmetal: :metagross: :dialga: 
+Kyogre - Sceptile-Mega, Venusaur-Mega, Zekrom

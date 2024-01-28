@@ -47,7 +47,7 @@ const getRocketLeaderData = async (leader, format = ".txt") => {
     })
     .then((data) => {
       // Work with JSON data here
-      format === ".txt" ? buildSlots(data) : buildTypes(data);
+      format === ".txt" ? buildSlots(data.replace(/,/g, "")) : buildTypes(data);
     })
     .catch((err) => {
       console.log(err);
@@ -104,14 +104,23 @@ const buildTypesForSingleGroup = (group, pokedex, leaderName) => {
 
 const fragmentTypesForSingleGroup = (group, pokedex, typeWrappers) => {
   for (let i = 0; i < 4; i++) {
-    let types = pokedex.find((dex) => {
-      if (
-        group[i].replace("-f", "♀").replace("-origin", "") ===
-        dex.name.english.toLowerCase()
-      )
-        return dex;
-    }).type;
-    buildUI(typeWrappers[i], types, i);
+    try {
+      let types = pokedex.find((dex) => {
+        if (
+          group[i]
+            .toLowerCase()
+            .replace("-f", "♀")
+            .replace("-origin", "")
+            .replace("-mega", "") === dex.name.english.toLowerCase()
+        )
+          return dex;
+      }).type;
+      buildUI(typeWrappers[i], types, i);
+    } catch {
+      console.log(
+        group[i].replace("-f", "♀").replace("-origin", "").replace("-mega", "")
+      );
+    }
   }
 };
 

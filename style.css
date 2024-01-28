@@ -294,3 +294,7 @@ img.pokemon {
 .pokemon {
     pointer-events: none;
 }
+
+.cliff>.slot>.row>.shiny>.disc-container {
+    translate: calc(-50% - 10px) -35px
+}
