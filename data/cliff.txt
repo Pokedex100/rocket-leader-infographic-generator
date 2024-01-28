@@ -3,7 +3,7 @@ Cliff
 Zubat - Mewtwo, Xurkitree, Raikou
 
 Aerodactyl - Xurkitree, Metagross, Zekrom
-Gallade - Moltres, Yveltal, Giratina
+Gallade - Moltres, Yveltal, Giratina-Origin
 Kingdra - Xerneas, Dialga, Zacian
 
 Tyranitar - Terrakion, Lucario, Machamp

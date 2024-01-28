@@ -2,10 +2,10 @@ Arlo
 
 Bagon - Florges, Walrein, Moltres
 
-Hypno - Darkrai, Gholdengo, Giratina
+Hypno - Darkrai, Gholdengo, Giratina-Origin
 Charizard - Terrakion, Rhyperior, Rampardos
 Golurk - Kartana, Kyogre, Darkrai 
 
-Dragonite - Mamoswine, Darmanitan, Glaceon
-Salamence - Mamoswine, Darmanitan, Glaceon
+Dragonite - Mamoswine, Darmanitan-galarian-standard, Glaceon
+Salamence - Mamoswine, Darmanitan-galarian-standard, Glaceon
 Scizor - Reshiram, Heatran, Blaziken  

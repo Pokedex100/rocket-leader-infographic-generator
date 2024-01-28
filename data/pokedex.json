@@ -30190,7 +30190,8 @@
       "french": "Darumacho"
     },
     "type": [
-      "Fire"
+      "Fire",
+      "Ice"
     ],
     "base": {
       "HP": 105,

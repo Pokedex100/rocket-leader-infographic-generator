@@ -111,14 +111,21 @@ const fragmentTypesForSingleGroup = (group, pokedex, typeWrappers) => {
             .toLowerCase()
             .replace("-f", "♀")
             .replace("-origin", "")
-            .replace("-mega", "") === dex.name.english.toLowerCase()
+            .replace("-mega", "")
+            .replace("-standard", "")
+            .replace("-galarian", "") === dex.name.english.toLowerCase()
         )
           return dex;
       }).type;
       buildUI(typeWrappers[i], types, i);
     } catch {
       console.log(
-        group[i].replace("-f", "♀").replace("-origin", "").replace("-mega", "")
+        group[i]
+          .replace("-f", "♀")
+          .replace("-origin", "")
+          .replace("-mega", "")
+          .replace("-standard", "")
+          .replace("-galarian", "")
       );
     }
   }
