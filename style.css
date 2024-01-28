@@ -298,3 +298,11 @@ img.pokemon {
 .cliff>.slot>.row>.shiny>.disc-container {
     translate: calc(-50% - 10px) -35px
 }
+
+.sierra>.slot>.row>.shiny>.disc-container {
+    translate: calc(-50% - 10px) -35px
+}
+
+.arlo>.slot>.row>.shiny>.disc-container {
+    translate: calc(-50% - 10px) -35px
+}
