@@ -1,8 +1,8 @@
 Cliff
 
-Machop - Mewtwo, Moltres, Florges
+Machop - Mewtwo, Moltres, Tapu-Koko
 
-Kingdra - Xerneas, Dialga, Zacian
+Kingdra - Enamorus, Tapu-Koko, Xerneas
 Aerodactyl - Xurkitree, Metagross, Zekrom
 Gallade - Moltres, Yveltal, Giratina-Origin
 

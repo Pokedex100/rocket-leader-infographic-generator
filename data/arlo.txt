@@ -6,6 +6,6 @@ Charizard - Terrakion, Rhyperior, Rampardos
 Hypno - Darkrai, Yveltal, Giratina-Origin
 Golurk - Kartana, Kyogre, Darkrai 
 
-Dragonite - Mamoswine, Darmanitan-galarian-standard, Glaceon
-Salamence - Mamoswine, Darmanitan-galarian-standard, Glaceon
+Dragonite - Mamoswine, Walrein, Tapu-Koko
+Salamence - Mamoswine, Walrein, Tapu-Koko
 Scizor - Reshiram, Heatran, Blaziken  

@@ -47315,6 +47315,16 @@
     }
   },
   {
+    "id": 905,
+    "name": {
+      "english": "Enamorus"
+    },
+    "type": [
+      "Fairy",
+      "Flying"
+    ]
+  },
+  {
     "id": 998,
     "name": {
       "english": "Baxcalibur"
