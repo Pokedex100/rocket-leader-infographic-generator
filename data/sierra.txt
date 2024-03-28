@@ -1,10 +1,10 @@
 Sierra
 
-Tentacool - Mewtwo, Xurkitree, Raikou
+Trapinch - Chesnaught, Venusaur, Walrein
 
-Milotic - Kartana, Xurkitree, Zekrom
-Honchkrow - Xurkitree, Zekrom, Baxcalibur
 Sableye - Xerneas, Gardevoir, Zacian
+Honchkrow - Xurkitree, Zekrom, Tapu-Koko
+Milotic - Kartana, Xurkitree, Zekrom
 
 Victreebel - Mewtwo, Reshiram, Moltres
 Alakazam - Darkrai, Yveltal, Giratina-Origin

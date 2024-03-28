@@ -1,11 +1,11 @@
 Cliff
 
-Zubat - Mewtwo, Xurkitree, Raikou
+Machop - Mewtwo, Moltres, Florges
 
+Kingdra - Xerneas, Dialga, Zacian
 Aerodactyl - Xurkitree, Metagross, Zekrom
 Gallade - Moltres, Yveltal, Giratina-Origin
-Kingdra - Xerneas, Dialga, Zacian
 
-Tyranitar - Terrakion, Lucario, Machamp
 Cradily - Terrakion, Metagross, Lucario
 Crobat - Xurkitree, Mewtwo, Zekrom
+Tyranitar - Terrakion, Lucario, Machamp

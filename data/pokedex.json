@@ -26709,6 +26709,10 @@
     "type": [
       "Grass"
     ],
+    "sky": [
+      "Grass",
+      "Flying"
+    ],
     "base": {
       "HP": 100,
       "Attack": 100,
@@ -42455,7 +42459,7 @@
   {
     "id": 785,
     "name": {
-      "english": "Tapu Koko",
+      "english": "Tapu-Koko",
       "japanese": "カプ・コケコ",
       "chinese": "卡璞・鸣鸣",
       "french": "Tokopiyon"
@@ -42502,7 +42506,7 @@
   {
     "id": 786,
     "name": {
-      "english": "Tapu Lele",
+      "english": "Tapu-Lele",
       "japanese": "カプ・テテフ",
       "chinese": "卡璞・蝶蝶",
       "french": "Tokotoro"
@@ -42549,7 +42553,7 @@
   {
     "id": 787,
     "name": {
-      "english": "Tapu Bulu",
+      "english": "Tapu-Bulu",
       "japanese": "カプ・ブルル",
       "chinese": "卡璞・哞哞",
       "french": "Tokopisco"
@@ -42596,7 +42600,7 @@
   {
     "id": 788,
     "name": {
-      "english": "Tapu Fini",
+      "english": "Tapu-Fini",
       "japanese": "カプ・レヒレ",
       "chinese": "卡璞・鳍鳍",
       "french": "Tokopisco"
