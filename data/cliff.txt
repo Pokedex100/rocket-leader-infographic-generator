@@ -4,7 +4,7 @@ Machop - Mewtwo, Moltres, Tapu-Koko
 
 Kingdra - Enamorus, Tapu-Koko, Xerneas
 Aerodactyl - Xurkitree, Metagross, Zekrom
-Gallade - Moltres, Yveltal, Giratina-Origin
+Gallade - Moltres, Giratina-Origin, Chandelure
 
 Cradily - Terrakion, Metagross, Lucario
 Crobat - Xurkitree, Mewtwo, Zekrom
