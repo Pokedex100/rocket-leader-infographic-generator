@@ -1,11 +1,11 @@
 Cliff
 
-Machop - Mewtwo, Moltres, Tapu-Koko
+Lileep - Lucario, Metagross, Walrein
 
-Kingdra - Enamorus, Tapu-Koko, Xerneas
+Marowak - Kyogre, Kartana, Baxcalibur 
+Kingdra - Enamorus, Tapu-koko, Xerneas
 Aerodactyl - Xurkitree, Metagross, Zekrom
-Gallade - Moltres, Giratina-Origin, Chandelure
 
-Cradily - Terrakion, Metagross, Lucario
-Crobat - Xurkitree, Mewtwo, Zekrom
 Tyranitar - Terrakion, Lucario, Machamp
+Crobat - Xurkitree, Mewtwo, Zekrom
+Cradily - Terrakion, Lucario, Metagross

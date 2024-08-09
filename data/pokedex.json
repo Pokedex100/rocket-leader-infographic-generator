@@ -43157,6 +43157,14 @@
     "type": [
       "Psychic"
     ],
+    "dusk-mane": [
+      "Steel",
+      "Psychic"
+    ],
+    "dawn-wings": [
+      "Ghost",
+      "Psychic"
+    ],
     "base": {
       "HP": 97,
       "Attack": 107,

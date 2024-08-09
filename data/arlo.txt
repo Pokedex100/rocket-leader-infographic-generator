@@ -1,11 +1,11 @@
 Arlo
 
-Cacnea - Moltres, Walrein, Scizor
+Anorith - Vaporeon, Swampert, Greninja
 
-Charizard - Terrakion, Rhyperior, Rampardos
-Hypno - Darkrai, Yveltal, Giratina-Origin
-Golurk - Kartana, Kyogre, Darkrai 
+Crobat - Xurkitree, Mewtwo, Zekrom
+Gyarados - Xurkitree, Zekrom, Thundurus-therian
+Steelix - Lucario, Landorus-therian, Terrakion
 
-Dragonite - Mamoswine, Walrein, Tapu-Koko
-Salamence - Mamoswine, Walrein, Tapu-Koko
-Scizor - Reshiram, Heatran, Blaziken  
+Scizor - Reshiram, Heatran, Blaziken
+Gardevoir - Necrozma-dusk-mane, Necrozma-dawn-wings, Metagross
+Snorlax - Lucario, Terrakion, Machamp

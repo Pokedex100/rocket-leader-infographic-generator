@@ -1,11 +1,11 @@
 Sierra
 
-Trapinch - Chesnaught, Venusaur, Walrein
+Carvanha - Florges, Scizor, Serperior
 
-Sableye - Enamorus, Tapu-Koko, Xerneas
-Honchkrow - Xurkitree, Zekrom, Tapu-Koko
 Milotic - Kartana, Xurkitree, Zekrom
+Sableye - Enamorus, Tapu-koko, Xerneas
+Ampharos - Landorus-therian, Groudon, Excadrill
 
-Victreebel - Mewtwo, Reshiram, Moltres
-Alakazam - Darkrai, Yveltal, Giratina-Origin
-Houndoom - Terrakion, Kyogre, Groudon
+Houndoom - Terrakion, Landorus-therian, Kyogre
+Nidoqueen - Landorus-therian, Kyogre, Mewtwo
+Alakazam - Necrozma-dawn-wings, Darkrai, Giratina-origin

@@ -229,7 +229,7 @@ const buildTypesForSingleGroup = (group, pokedex, leaderName) => {
 const fragmentTypesForSingleGroup = (group, pokedex, typeWrappers) => {
   for (let i = 0; i < 4; i++) {
     try {
-      let types = pokedex.find((dex) => {
+      let data = pokedex.find((dex) => {
         if (
           group[i]
             .toLowerCase()
@@ -238,10 +238,14 @@ const fragmentTypesForSingleGroup = (group, pokedex, typeWrappers) => {
             .replace("-mega", "")
             .replace("-standard", "")
             .replace("-sky", "")
-            .replace("-galarian", "") === dex.name.english.toLowerCase()
+            .replace("-galarian", "")
+            .replace("-therian", "")
+            .replace("-dusk-mane", "")
+            .replace("-dawn-wings", "") === dex.name.english.toLowerCase()
         )
           return dex;
-      }).type;
+      });
+      const types = data[group[i].replace(/^[^-]+-/, "")] || data.type;
       buildUI(typeWrappers[i], types, i);
     } catch {
       console.log(
@@ -252,6 +256,9 @@ const fragmentTypesForSingleGroup = (group, pokedex, typeWrappers) => {
           .replace("-standard", "")
           .replace("-sky", "")
           .replace("-galarian", "")
+          .replace("-therian", "")
+          .replace("-dusk-mane", "")
+          .replace("-dawn-wings", "")
       );
     }
   }
